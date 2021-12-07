@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+    'port' => env('MAIL_PORT', 465),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,9 +55,22 @@ return [
     |
     */
 
+    //'stream'=>[
+       // 'ssl'=>[
+          //  'allow_self_signed'=>true,
+           // 'verify_peer'=>false,
+            //'verify_peer_name'=>false,
+       // ],
+   // ],
+
+
+
+
+
+
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'eduwalterz@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'No Reply'),
     ],
 
     /*
