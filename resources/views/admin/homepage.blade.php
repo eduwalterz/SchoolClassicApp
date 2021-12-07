@@ -552,11 +552,11 @@
                   
                     <tr>
                       
-                      <th class="col-md-1">ID</th>
-                      <th class="col-md-3">Fontawesome</th>
-                      <th class="col-md-2">Heading</th>
-                      <th class="col-md-4">Paragraph</th>
-                      <th class="col-md-2">Action</th>
+                      <th scope="col">ID</th>
+                      <th scope="col">Fontawesome</th>
+                      <th scope="col">Heading</th>
+                      <th scope="col">Paragraph</th>
+                      <th scope="col">Action</th>
                     </tr>
                     
                   </thead>
