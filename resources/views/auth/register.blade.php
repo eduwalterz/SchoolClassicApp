@@ -70,8 +70,15 @@
                             
                         </div>
                     </form>
-                        <strong> Already a Member
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <strong> Already a Member <br>
+                        
+                            
+                        <button type="submit" class="btn btn-sm btn-primary" style="background-color:#fe730c !important; color:#fff; margin:1px solid #fe730c !important">
+                        <a  href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </button>
+                        
+                            
+                   
                         </strong>
                 </div>
             </div>
